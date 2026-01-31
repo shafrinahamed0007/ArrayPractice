@@ -101,4 +101,15 @@ const arr2 = ["Emil", "Tobias", "Linus"];
 const arr3 = ["Robin", "Morgan"];
 
 const myChildrens = arr1.concat(arr2, arr3);
-console.log(myChildrens);
+// console.log(myChildrens);
+
+
+// The concat() method can also take strings as arguments.
+const arr4 = ["emil", "tobias", "linus"];
+const updateArr4 = arr4.concat("Peter");
+console.log(updateArr4);
+
+
+
+
+
