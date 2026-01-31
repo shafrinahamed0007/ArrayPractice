@@ -117,6 +117,17 @@ console.log(updateArr4);
 const fruits1 = [ "Banana", "Orange", "Apple", "Mango", "Kiwi"];
 // fruits1.copyWithin(2,0);
 fruits1.copyWithin(2,0,2);
-console.log(fruits1); 
+// console.log(fruits1); 
 
+
+// The flat() method creates a new array with sub-array elements concatenated to a specified depth
+
+const myArr = [[1,2], [3,4], [5,6]];
+const newArr = myArr.flat();
+console.log(newArr);
+
+// the flatMap() method first maps all elements of an array and then creates a new array by flattening the array.
+const myArr1 = [1,2,3,4,5,6];
+const newArr1 = myArr1.flatMap(x=>[x,x*10]);
+console.log(newArr1);
 
