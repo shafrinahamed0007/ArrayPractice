@@ -124,10 +124,24 @@ fruits1.copyWithin(2,0,2);
 
 const myArr = [[1,2], [3,4], [5,6]];
 const newArr = myArr.flat();
-console.log(newArr);
+// console.log(newArr);
 
 // the flatMap() method first maps all elements of an array and then creates a new array by flattening the array.
 const myArr1 = [1,2,3,4,5,6];
 const newArr1 = myArr1.flatMap(x=>[x,x*10]);
-console.log(newArr1);
+// console.log(newArr1);
+
+
+/**
+ * The splice() method adds new items to an array
+ * the slice() method slices out a piece of an array
+ */
+
+let fruits3 = ["Banana", "Orange", "Apple", "jackfruit"];
+fruits3.splice(2,1,"Lemon", "Kiwi");
+console.log(fruits3);
+
+let fruits4 = ["Banana", "Orange", "Apple", "Mango"];
+fruits4.splice(0,1);
+console.log(fruits4);
 
