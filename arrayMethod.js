@@ -143,5 +143,10 @@ console.log(fruits3);
 
 let fruits4 = ["Banana", "Orange", "Apple", "Mango"];
 fruits4.splice(0,1);
-console.log(fruits4);
+// console.log(fruits4);
+
+const colors = ["Red","Green", "Blue", "Yellow", "Purple"];
+const part = colors.slice(1,4);
+console.log(colors);
+console.log(part);
 
